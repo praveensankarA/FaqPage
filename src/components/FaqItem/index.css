@@ -1,0 +1,36 @@
+/* Write your code here. */
+.list-ele {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 19px;
+  border: 1.2px solid #d7dae6;
+  padding: 7px 20px;
+  border-radius: 12px;
+}
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plus-btn {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+}
+.plus-logo {
+  width: 20px;
+  height: 20px;
+}
+.question-text {
+  color: #52606d;
+  font-size: 18px;
+}
+.hr {
+  width: 100%;
+  align-self: center;
+  color: #e4e7eb;
+}
+.ans-text {
+  color: #9aa5b1;
+}

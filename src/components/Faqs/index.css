@@ -1,0 +1,42 @@
+/* Write your code here. */
+
+.faq-main-container {
+  display: flex;
+  min-height: 95vh;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8dfe4;
+}
+.faq-card-container {
+  min-height: 80%;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding-bottom: 40px;
+}
+.faq-main-head {
+  color: #cb8805;
+}
+.faq-items-container {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50vh;
+}
+
+@media (min-width: 600px) {
+  .faq-main-container {
+    min-height: 100vh;
+  }
+  .faq-main-head {
+    font-size: 40px;
+  }
+}
